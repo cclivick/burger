@@ -11,7 +11,7 @@ var orm = {
       });
     },
     insertOne: function(newBurger, cb) {
-        var queryString = "INSERT INTO burgers (burger_name, devoured) VALUES (" + newBurger + ", false);";
+        var queryString = 'INSERT INTO burgers (burger_name, devoured) VALUES ("' + newBurger + '", false);';
         connection.query(queryString, function(err, result) {
             if(err) {
                 throw err;
@@ -20,7 +20,7 @@ var orm = {
         });
     },
     updateOne: function(burgerName, cb) {
-        var queryString = "UPDATE burgers SET devoured = true WHERE burger_name = " + burgerName + ";";
+        var queryString = 'UPDATE burgers SET devoured = true WHERE burger_name = "' + burgerName + '";';
         connection.query(queryString, function (err, result) {
             if(err) {
                 throw err;
