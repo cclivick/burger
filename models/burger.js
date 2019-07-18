@@ -11,10 +11,10 @@ var burger = {
         cb(res);
       });
     },
-    updateOne: function(burgerName, cb) {
-      orm.update(burgerName, function(res) {
+    updateOne: function(id, cb) {
+      orm.updateOne(id, function(res) {
         cb(res);
-      });
+      }); 
     }
   };
 
