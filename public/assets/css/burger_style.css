@@ -1,3 +1,48 @@
-li {
- color: blue
+#burgerHeader{
+    background-image: linear-gradient(rgba(92, 91, 91, 0.884), rgb(41, 40, 40, 0.884));
+    height: 120px;
+    border-bottom-right-radius: 65px;
+    margin-bottom: 20px;
+}
+#mainTitle{
+    margin-left: 45px;
+    margin-top: 0;
+    padding-top: 45px;
+    font-family: 'Barriecito', cursive;
+    font-size: 45px;
+    color: rgb(255, 211, 157);
+}
+body{
+    padding: 0;
+    padding-bottom: 25px;
+    margin: 0;
+    background-image: url(../img/grill-back.jpeg);
+}
+.burgers{
+    font-family: 'Timmana', sans-serif;
+    font-size: 28px;
+}
+h2{
+    font-family: 'Archivo Black', sans-serif;
+}
+#undevouredDiv{
+    padding: 20px;
+    background-color: rgba(42, 167, 94, 0.726);
+}
+#devouredDiv{
+    padding: 20px;
+    background-color: rgba(245, 84, 20, 0.726);
+}
+#addBurgerDiv{
+    padding: 20px;
+    background-color: rgb(4, 4, 247, 0.726);
+}
+.change-devoured,
+.addBurg{
+    background-color: black;
+    color: rgb(230, 87, 87);
+    border: 3px solid rgb(230, 87, 87);
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 18px;
 }
