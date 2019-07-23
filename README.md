@@ -20,6 +20,8 @@
 
 ## Example
 
+![eat-da-buger](https://user-images.githubusercontent.com/46388110/61753712-ed911d00-ad75-11e9-97f9-e12046686331.gif)
+
 
 ## Purpose / Technologies Used
 >* I developed this simple application in order to further my understanding (and hopefully help other aspiring developers) with Express.js, Handlebars, and API creation.
